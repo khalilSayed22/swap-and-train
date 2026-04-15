@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0A0A0F"/>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1A1A26"/>
+      <stop offset="100%" stop-color="#0A0A0F"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="200" y1="80" x2="312" y2="432" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4FF4A"/>
+      <stop offset="100%" stop-color="#A8D020"/>
+    </linearGradient>
+  </defs>
+  <!-- Lightning bolt ⚡ -->
+  <path d="M296 80 L180 280 H256 L216 432 L332 232 H256 L296 80Z" fill="url(#bolt)"/>
+</svg>
